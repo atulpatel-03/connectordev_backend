@@ -103,7 +103,9 @@ router.post(
 // @access   Public
 router.get('/', async (req, res) => {
   try {
+    const tempPro = await Profile.find()
     const profiles = await Profile.find().populate('user', ['name', 'avatar']);
+    console.log("sdlfsodf",tempPro)
     res.json(profiles);
   } catch (err) {
     console.error(err.message);

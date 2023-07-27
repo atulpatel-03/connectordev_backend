@@ -1,0 +1,6 @@
+{
+"mongoURI" : "mongodb+srv://atul-admin:Atul123@devconnector.9i5md.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+"jwtSecret" : "atulpatel22777",
+"githubToken" : "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"
+}
+
